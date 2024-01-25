@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-BusinessLogicLayer", "1-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-DataAccessLayer", "3-DataAccessLayer", "{B4DABDBC-3624-4CF9-860E-1D0DCFEBE5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Api", "0-PresentationLayer\Example.Api\Example.Api.csproj", "{80C5839A-DA34-43C1-AF62-F6B688462725}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Api", "0-PresentationLayer\Example.Api\Example.Api.csproj", "{80C5839A-DA34-43C1-AF62-F6B688462725}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.DbContexts", "3-DataAccessLayer\Example.DbContexts\Example.DbContexts.csproj", "{922A1A0F-3B69-42DB-B1ED-D1E308721BC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.DbContexts", "3-DataAccessLayer\Example.DbContexts\Example.DbContexts.csproj", "{922A1A0F-3B69-42DB-B1ED-D1E308721BC9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.DbContexts.Interfaces", "3-DataAccessLayer\Example.DbContexts.Interfaces\Example.DbContexts.Interfaces.csproj", "{F3BA887E-F518-4598-9099-CDBA14DEFDA2}"
 EndProject
@@ -27,7 +27,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Services", "1-Busin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Services.Interfaces", "1-BusinessLogicLayers\Example.Services.Interfaces\Example.Services.Interfaces.csproj", "{ED109DEB-0DFA-447D-86EB-947BE590309E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.TableEntities", "3-DataAccessLayer\Example.TableEntities\Example.TableEntities.csproj", "{45C8ABAF-39C4-4D2E-A307-F932433B2E28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.TableEntities", "3-DataAccessLayer\Example.TableEntities\Example.TableEntities.csproj", "{45C8ABAF-39C4-4D2E-A307-F932433B2E28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16FD3B3A-33A6-44E8-87CA-C7CDC601E948}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
